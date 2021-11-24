@@ -1,5 +1,8 @@
 ---
-published: false
+published: true
+date
+
+tags: testing
 ---
 ## Just figuring out How jekyll works
 
