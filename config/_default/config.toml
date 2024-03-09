@@ -1,0 +1,7 @@
+# config/_default/config.toml
+baseURL = 'https://janolaf.github.io/'
+
+enableRobotsTXT = true
+
+[outputs]
+	home = ["HTML", "RSS", "JSON"]

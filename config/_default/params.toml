@@ -1,0 +1,32 @@
+# config/_default/params.toml
+# Theme options
+# https://jpanther.github.io/congo/docs/configuration/#theme-parameters
+
+colorScheme = "Sapphire"
+autoSwitchAppearance = true
+defaultAppearance = "light"
+
+enableImageLazyLoading = true
+enableImageWebp = true
+enableCodeCopy = true
+
+[homepage]
+	layout = "page"
+	showRecent = true
+	recentLimit = 5
+	mainSections = '["posts"]'
+
+[header]
+	layout = "hybrid"
+	showTitle = false
+
+[footer]
+	showCopyright = true
+	showThemeAttribution = true
+	showAppearanceSwitcher = true
+	showScrollToTop = true
+
+[article]
+	showDate = true
+	showAuthor = true
+
